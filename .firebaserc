@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "ronald-calculadora",
+    "ronald-calculadora": "ronald-calculadora"
+  }
+}
