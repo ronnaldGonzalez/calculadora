@@ -14,7 +14,6 @@ import './App.css'
 const App = () => {
     const [stack, setStack] = useState("");
     const items = words(stack, /[^-^+^*^/]+/g);
-    console.log("renderizacion de App", items);
     return (
         <main className='react-calculator'>
             <Result value={items[items.length - 1]} />
